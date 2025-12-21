@@ -1,0 +1,27 @@
+# Exclude configuration file
+# Lines starting with # are comments
+# Patterns are case-insensitive
+# Use wildcards: *.ext or specific names
+
+[Files]
+*.log
+*.tmp
+*.bak
+*.swp
+*.lock
+Thumbs.db
+.DS_Store
+
+[Folders]
+node_modules
+.git
+.svn
+bin
+obj
+dist
+build
+.vscode
+.idea
+.vs
+packages
+.gradle
